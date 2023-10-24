@@ -1,0 +1,32 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#333333;
+}
+
+.Navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Navbar li{
+    float: left;
+}
+.Navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.Navbar li a:hover{
+    color:wheat;
+}
+
+.LoginButton {
+    padding:0;
+}
