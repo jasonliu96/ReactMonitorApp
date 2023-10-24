@@ -1,0 +1,21 @@
+# Ignore dependencies installed with npm or Yarn
+node_modules/
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Ignore build artifacts
+build/
+dist/
+*.min.js
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore logs and other runtime data
+logs/
+*.log
